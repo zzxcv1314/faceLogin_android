@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#76C2AF"
+    android:gravity="center"
+    tools:context="com.example.greenjoa.imagetoserver1019.MainActivity">
+
+
+    <TextView
+        android:text="Which information to see?"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="27sp"
+        android:paddingBottom="20dp"/>
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:src="@drawable/diet" />
+
+        <ImageButton
+            android:background="@drawable/weekly_menu"
+            android:layout_marginLeft="10dp"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:id="@+id/menu"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:gravity="center">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/shuttle" />
+
+        <ImageButton
+            android:background="@drawable/shuttle_btn"
+            android:layout_marginLeft="10dp"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:id="@+id/shuttle"/>
+    </LinearLayout>
+
+</LinearLayout>
